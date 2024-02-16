@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--Adding desired google font link-->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
    <!-- Overriding Custom CSS styling within the bootstrap nav -->
@@ -39,13 +41,17 @@ object-fit: cover;
 width: 100%;
 }
 
+body {
+  font-family: "Mulish", sans-serif;
+}
+
 </style>
 </head>
 <body>
 <!-- Navigation Code -->
 <nav class="navbar navbar-expand-lg navbar-custom">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">My Portfolio</a>
+      <a class="navbar-brand" href="#">Hamdi Sheikhabdullahi</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -77,7 +83,23 @@ width: 100%;
   <div class="container mt-4">
     <div class="p-5 mb-4 bg-body-tertiary rounded-3"> 
       <div class="container-fluid py-5"></div>
-      <div cl
+      <div class="row align-items-center">
+<div class="col-md-4">
+  <img src="images/IMG_1343.jpeg" class="img-fluid  mb-3" alt="Your Image" style="max-width: 200px;">
+</div>
+      <div class="col-md-6">
+        <h2>About Me</h2>
+        <p class="mt-0" style="font-size: 25px;">Hello! I'm Hamdi! I'm currently enrolled in UoB's 16 week front-end-web development course. My hobbies in my spare time are improving my arabic, creative writing and gaming!</p>
+        <h3 style="font-size: 25px;">Skills</h3>
+        <ul>
+          <li>HTML/CSS</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+    </div>
+     </div>
+      </div>
     </div>
     
   <!-- Work Section -->
@@ -148,7 +170,7 @@ width: 100%;
         </div>
       </div>
     </div>
-         <!-- Containers, Rows, and Cards -->
+         
     
 
   <!-- Footer -->

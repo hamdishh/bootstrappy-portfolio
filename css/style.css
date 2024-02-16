@@ -1,11 +1,35 @@
 .navbar-custom {
-    background-color: #e0b4b4; /* New nav colour */
+     background-color: #e0b4b4; /* New nav colour */
 }
 
 .card {
-    width: 50%;
+width: 50%;
 }
 
 .about-text {
-    font-size: 100px;
+font-size: 100px;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    .text-md {
+font-size: 25px; 
+}
+
+.skills-md {
+font-size: 20px; 
+}
+}
+@media (max-width: 767px) {
+    
+.text-sm {
+font-size: 20px; 
+}
+
+.skills-sm {
+font-size: 15px; 
+}
+}
+

@@ -4,30 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Overriding Custom CSS styling within the bootstrap nav -->
-    <style>
-    .navbar-custom {
-        background-color: #e0b4b4; /* New nav colour */
+<!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <!-- Overriding Custom CSS styling within the bootstrap nav -->
+  <style>
+ .navbar-custom {
+  background-color: #e0b4b4; /* New nav colour */
     }
     /* Space between navbar items */
-    .navbar-nav .nav-link {
-            margin-right: 35px; /* adjusting pacing between navbar links */
-        }
+.navbar-nav .nav-link {
+margin-right: 35px; 
+}
 /* Overriding css embedded in bootstrap */
 footer {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            background-color: #e0b4b4;
-            text-align: center;
-            color: white;
-            padding: 10px 0; /* padding for the footer content */
-            left: 0; /* Adjust the left margin */
-            right: 0;
-        }
+position: fixed;
+bottom: 0;
+width: 100%;
+background-color: #e0b4b4;
+text-align: center;
+color: white;
+padding: 10px 0; /* padding for the footer content */
+left: 0; /* Adjust the left margin */
+right: 0;
+}
 
+.placeholder-image {
+background-color: #ccc;
+height: 150px; 
+width: 100%;
+object-fit: cover;
+}
+
+.card {
+width: 100%;
+}
 
 </style>
 </head>
@@ -45,11 +55,11 @@ footer {
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown Menu
+              Contacts here
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -67,14 +77,77 @@ footer {
   <div class="container mt-4">
     <div class="p-5 mb-4 bg-body-tertiary rounded-3"> 
       <div class="container-fluid py-5"></div>
+      <div cl
     </div>
     
   <!-- Work Section -->
   <section class="container-fluid bg-light py-5">
-    <div class="container">
-      <h2 class="text-center">My Work</h2>
-      <div class="row">
-         <!-- Cards showcasing your work go here -->
+  <div class="container">
+  <h2 class="text-center">My Work</h2>
+  <div class="row">
+  <!-- Cards showcasing your work go here -->
+  <div class="col-lg-4 col-md-6 mb-4">
+  <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top placeholder-image" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Description of Project 1.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top placeholder-image" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Description of Project 2.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top placeholder-image" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Description of Project 3.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top placeholder-image" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Project 4</h5>
+              <p class="card-text">Description of Project 4.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top placeholder-image" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Project 5</h5>
+              <p class="card-text">Description of Project 5.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top placeholder-image" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Project 6</h5>
+              <p class="card-text">Description of Project 6.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
          <!-- Containers, Rows, and Cards -->
     
 

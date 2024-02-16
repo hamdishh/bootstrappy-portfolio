@@ -1,3 +1,7 @@
 .navbar-custom {
     background-color: #e0b4b4; /* New nav colour */
 }
+
+.card {
+    width: 50%;
+}

@@ -1,16 +1,12 @@
 # Unit 3 Challenge: Code Bootstrap Portfolio
 
-## Overview
+## Description
+A portfolio webpage showcasing projects to future employers using bootstrap 5 components and utility classes. Components I've added is a skills section, navigation bar with links that have a hover effect and a drop down menu, bootstrap cards with placeholder imagery to display projects.
 
-In this assignment, you'll be building your portfolio layout using the Bootstrap CSS Framework.
+## Installation
+N/A
 
-## Before You Begin
-
-* You've learned a ton of material: HTML, CSS, GitHub, GitHub Pages, and Bootstrap. If you feel like you're falling behind, there's no need to panic. You'll have plenty of time to digest and master this material.
-
-* We're diving into JavaScript next unit, and HTML/CSS will start receiving less focus. Still, you'll find that a basic knowledge of HTML/CSS will help you understand JavaScript, especially when we use it to manipulate web pages.
-
-## Commits
+## Deployment link
 
 * Having an active and healthy commit history on GitHub is important for your future job search. It is also extremely important for making sure your work is saved in your repository. If something breaks, committing often ensures you are able to go back to a working version of your code.
 

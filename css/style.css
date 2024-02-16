@@ -2,6 +2,25 @@
      background-color: #e0b4b4; /* New nav colour */
 }
 
+/* Space between navbar items */
+.navbar-nav .nav-link {
+margin-right: 35px; 
+}
+
+/*giving navbar links hover effect*/
+.navbar-nav .nav-link:hover {
+color: #fff; 
+background-color: #000000; 
+transition: all 0.3s ease; 
+}
+
+.placeholder-image {
+background-color: #ccc;
+ height: 150px; 
+width: 100%;
+object-fit: cover;
+}
+
 .card {
 width: 50%;
 }
@@ -14,7 +33,7 @@ font-size: 100px;
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
-    .text-md {
+.text-md {
 font-size: 25px; 
 }
 

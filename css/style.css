@@ -1,5 +1,3 @@
-.navbar {
-font-family: monospace;
-background-color: black;
-
+.navbar-custom {
+    background-color: #e0b4b4; /* New nav colour */
 }

@@ -14,20 +14,26 @@ background-color: #000000;
 transition: all 0.3s ease; 
 }
 
-.placeholder-image {
-background-color: #ccc;
- height: 150px; 
-width: 100%;
-object-fit: cover;
-}
+.featured-image .card-img-top {
+     height: 300px; /* Adjust the height as per your preference */
+     object-fit: cover; /* Maintain aspect ratio */
+ }
+ .featured-image .card-body {
+     min-height: 100px; /* Adjust the height of the card body to accommodate content */
+ }
+
 
 .card {
 width: 50%;
 }
 
+
+
+
 .about-text {
 font-size: 100px;
 }
+
 
 
 /* MEDIA QUERIES */

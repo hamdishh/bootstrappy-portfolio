@@ -11,7 +11,7 @@ https://hamdishh.github.io/bootstrappy-portfolio/
 
 ## Sample Images
 ![alt text](<Screenshot 2024-02-16 at 23.12.36.png>)
-![alt text](<Screenshot 2024-02-16 at 23.13.25.png>)
+![alt text](<Screenshot 2024-02-22 at 00.23.24.png>)
 
 ## Credits
 All work is done by me, hamdishh
